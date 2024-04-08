@@ -1,0 +1,6 @@
+build:
+  docker:
+    authservice: ./server/authservice/build/Dockerfile
+    customerservice: ./server/customerservice/build/Dockerfile
+    tasksservice: ./server/taskService/build/Dockerfile
+    database: ./server/db/build/Dockerfile
